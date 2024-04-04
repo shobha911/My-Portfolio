@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- style-link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap cds -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font-awesome-cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.2/css/boxicons.min.css" />
+
+</head>
+<style>
+
+</style>
+
+<body>
+
+    <!-- main-div strats -->
+
+    <div class="main-div">
+
+        <div class="inner">
+
+            <header class="head">
+
+                <ul>
+
+                    <div onclick="about()">
+                        <div id="list-itme" class="list-itme active" onclick="aboutpage()">
+                            <i class='bx bxs-user'></i>
+                            <li><a href="#">About</a></li>
+                        </div>
+                    </div>
+
+                    <div  onclick="service()">
+                        <div id="list-itme-one" class="list-itme service-top" onclick="servicepage()">
+                            <i><img src="img/service.png" alt=""></i>
+                            <li><a href="#" class="serimg">Services</a></li>
+                        </div>
+                    </div>
+
+                    <div  onclick="project()">
+                        <div id="list-itme-two" class="list-itme" onclick="projectpage()">
+                            <i class='bx bx-notepad'></i>
+                            <li><a href="#">Project</a></li>
+                        </div>
+                    </div>
+
+                    <div  onclick="contact()">
+                        <div id="list-itme-three" class="list-itme" onclick="contactpage()">
+                            <i class='bx bxs-contact'></i>
+                            <li><a href="#">Contact</a></li>
+                        </div>
+                    </div>
+
+                    <div onclick="download()">
+                        <div id="list-itme-four" class="list-itme download-top" onclick="downloadpage()">
+                            <i class='bx bx-down-arrow-circle'></i>
+                            <li><a href="#">Download</a></li>
+                        </div>
+                    </div>
+
+                </ul>
+
+
+            </header>
+            <!-- header end-->
+
+            <div class="flex">
+
+                <!-- introducation strats -->
+                <div class="left-area">
+
+                    <div class="fix">
+
+                        <div class="main-img">
+                            <img src="img/photos-2-removebg-preview.png" alt="">
+                        </div>
+
+                        <h3>Shobha Mahor</h3>
+                        <h5>Web Developer</h3>
+
+                            <div class="social">
+                                <a href="https://www.facebook.com/profile.php?id=100091977202427"><i
+                                        class='bx bxl-facebook face'></i></a>
+                                <a
+                                    href="https://www.instagram.com/invites/contact/?i=1n1sm0awu84l8&utm_content=tu73ayf"><i
+                                        class='bx bxl-instagram insta'></i></a>
+                                <a
+                                    href="https://www.linkedin.com/in/shanu-mahor-2830072a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                        class='bx bxl-linkedin linkin'></i></a>
+                                <a href="https://github.com/shobha911"><i class='bx bxl-github git'></i></a>
+                            </div>
+
+                            <div class="intro">
+
+                                <div class="intro-1 flex">
+                                    <div class="icon">
+                                        <a href="https://t.ly/M2_j1"><i class='bx bxs-mobile'></i></a>
+                                    </div>
+
+                                    <div class="icon-text">
+                                        <p>phone</p>
+                                        <a href="https://t.ly/M2_j1">
+                                            <h6>+91 8225002062</h6>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <div class="intro-1 flex">
+                                    <div class="icon">
+                                        <a href="mailto:mahorshnau911@gmail.com"><i class='bx bx-mail-send'></i></a>
+                                    </div>
+
+                                    <div class="icon-text">
+                                        <p>Email</p>
+                                        <a href="mailto:mahorshnau911@gmail.com">
+                                            <h6>mahorshanu911@gmail.com</h6>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <div class="intro-1 flex">
+
+                                    <div class="icon">
+                                        <i class='bx bx-current-location'></i>
+                                    </div>
+
+                                    <div class="icon-text last-text">
+                                        <p>Location</p>
+                                        <h6>Bhopal (M.P.)</h6>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                    </div>
+
+                </div>
+
+                <!-- introdection end -->
+                <!-- Right-area strats-->
+
+                <div class="right-area">
+
+                    <!-- banner strats-->
+                    <section class="banner" id="about-div">
+
+                        <h1>About Me</h1>
+                        <p>Hi i am a frontend web developer and i can create fully responsive website with html, html5,
+                            css,
+                            css3, bootstrap,
+                            sass, javasceipt, jquery and also I can convert PSD file to HTML file..</p>
+                        <p>I'm a passionate and hand on experienced web developer dedicated to creating innovative and
+                            user-friendly websites.</p>
+
+                        <h2>My skill</h2>
+
+                        <div class="skill">
+
+                            <div class="box">
+
+                                <div class="box-1">
+                                    <i class='bx bxl-html5'></i>
+                                    <a href="#">Html5</a>
+                                </div>
+
+                                <div class="box-1">
+                                    <i class='bx bxl-css3'></i>
+                                    <a href="#">CSS3</a>
+                                </div>
+
+                                <div class="box-1 box-2">
+                                    <i class='bx bxl-bootstrap'></i>
+                                    <a href="#">Bootstrap</a>
+                                </div>
+
+                                <div class="box-1">
+                                    <i class='bx bxl-sass'></i>
+                                    <a href="#">SASS</a>
+                                </div>
+
+                            </div>
+
+                            <div class="box">
+
+                                <div class="box-1 box-2">
+                                    <i class='bx bxl-javascript'></i>
+                                    <a href="#">JavaScript</a>
+                                </div>
+
+                                <div class="box-1">
+                                    <i class='bx bxl-jquery'></i>
+                                    <a href="#">JQuery</a>
+                                </div>
+
+                                <div class="box-1">
+                                    <i class='bx bxl-github'></i>
+                                    <a href="#">Github</a>
+                                </div>
+
+                                <div class="box-1 box-2">
+                                    <img src="img/ps.png" alt="">
+                                    <a href="#">Photoshop</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- banner ends-->
+                    <!-- service strat-->
+
+                    <section class="service dis-none" id="service-div">
+
+                        <h1>Services</h1>
+
+                        <div class="service-all flex">
+
+                            <div class="service-box">
+                                <img src="img/psd-icon.png" alt="">
+                                <h3>PSD to Website</h3>
+                                <p>I can convert a psd to an actuall website using HTML5, CSS3 and with basic JQuery
+                                    which will be fully
+                                    responsive. and below i have mentioned some work done by me.</p>
+                            </div>
+
+                            <div class="service-box">
+                                <i class='bx bxl-bootstrap'></i>
+                                <h3>Bootstrap Website</h3>
+                                <p>I can develop a fully responsive website using Bootstrap. and below i have mentioned
+                                    a work done by me in
+                                    bootstrap and for more you can check my Github profile.</p>
+                            </div>
+
+                            <div class="service-box">
+                                <img src="img/css-icon.png" alt="">
+                                <h3>Flex Website</h3>
+                                <p>I can create a actuall website using HTML5, CSS3 (Flex-box) and with basic JavaScript
+                                    and JQuery which
+                                    will be fully responsive. and below i have mentioned some work done by me.</p>
+                            </div>
+
+                        </div>
+
+                    </section>
+                    <!-- service ends-->
+                    <!-- project strats-->
+
+                    <section class="project dis-none" id="project-div">
+                        <h1>My project</h1>
+
+                        <div id="div1">
+
+                            <ul class="flex work-point">
+                                <li><a href="#" class="act" onclick="one()">All</a></li>
+                                <li class="bottom"><a href="#"  onclick="two()">Flex-box</a></li>
+                                <li ><a href="#" onclick="three()">bootstrap</a></li>
+                            </ul>
+
+                            <div class="work">
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/milina.png" alt="">
+                                    </div>
+                                    <h6> <a href="https://shobha911.github.io/Millina/" target="_blank">Milina link</a>
+                                    </h6>
+                                    <p>&#128073; html, css & flex-box.</p>
+                                    <p>&#128073; Custamized Owl Carousel.</p>
+                                    <p>&#128073; Using Hover Effect.</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/education.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/edu-meeting/" target="_blank">Edu
+                                            Meeting</a></h6>
+                                    <p>&#128073; Using Bootstrap Grid.</p>
+                                    <p>&#128073; Using Counter up.</p>
+                                    <p>&#128073; Custamized Owl Carousel.</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/digital.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/DGital/" target="_blank">DGital</a></h6>
+                                    <p>&#128073; Using Bootstrap Grid.</p>
+                                    <p>&#128073; Aos Animations Library.</p>
+                                    <p>&#128073; Using Counter up.</p>
+                                    <p>&#128073; Custamized Owl Carousel.</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/vertex.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/vertex_2124/" target="_blank">Vertex</a>
+                                    </h6>
+                                    <p>&#128073; using Bootstrap Grid.</p>
+                                    <p>&#128073; Using Hover Effect</p>
+                                    <p>&#128073; Using Gallary Library</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/klinik.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/Klinic/" target="_blank">Klinik</a></h6>
+                                    <p>&#128073; using Bootstrap Grid.</p>
+                                    <p>&#128073; Using Counter</p>
+                                    <p>&#128073; Aos-animation Library</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/zon-zon.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/zon/" target="_blank">Zon-Zon</a></h6>
+                                    <p>&#128073; Using Bootstrap Grid.</p>
+                                    <p>&#128073; Using navbar or carousel </p>
+                                    <p>&#128073; Custamized Owl Carousel.</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/restrorant.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/new-restrorant/"
+                                            target="_blank">Restoran</a></h6>
+                                    <p>&#128073; Using Bootstrap Grid.</p>
+                                    <p>&#128073; Using java screipt</p>
+                                    <p>&#128073; Using Counter</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/seo-dream.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/seo-dream/" target="_blank">Seo-Dream</a>
+                                    </h6>
+                                    <p>&#128073; html, css & flex-box.</p>
+                                    <p>&#128073; Aos Animations Library.</p>
+                                    <p>&#128073; Using Hamburger.</p>
+                                    <p>&#128073; Custamized Owl Carousel.</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/spacDyam.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/space-dym/" target="_blank">SpacDyna</a>
+                                    </h6>
+                                    <p>&#128073; html, css & flex-box.</p>
+                                    <p>&#128073; Using Hamburger.</p>
+                                    <p>&#128073; Aos Animations Library.</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="dis-none" id="div2">
+
+                            <ul class="flex work-point">
+                                <li><a href="#" onclick="one()">All</a></li>
+                                <li><a href="#" class="act" onclick="two()">Flex-box</a></li>
+                                <li><a href="#" onclick="three()">bootstrap</a></li>
+                            </ul>
+
+                            <div class="work">
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/milina.png" alt="">
+                                    </div>
+                                    <h6> <a href="https://shobha911.github.io/Millina/" target="_blank">Milina link</a>
+                                    </h6>
+                                    <p>&#128073; html, css & flex-box.</p>
+                                    <p>&#128073; Custamized Owl Carousel.</p>
+                                    <p>&#128073; Using Hover Effect.</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/seo-dream.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/seo-dream/" target="_blank">Seo-Dream</a>
+                                    </h6>
+                                    <p>&#128073; html, css & flex-box.</p>
+                                    <p>&#128073; Aos Animations Library.</p>
+                                    <p>&#128073; Using Hamburger.</p>
+                                    <p>&#128073; Custamized Owl Carousel.</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/spacDyam.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/space-dym/" target="_blank">SpacDyna</a>
+                                    </h6>
+                                    <p>&#128073; html, css & flex-box.</p>
+                                    <p>&#128073; Using Hamburger.</p>
+                                    <p>&#128073; Aos Animations Library.</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="dis-none" id="div3">
+
+                            <ul class="flex work-point">
+                                <li><a href="#" onclick="one()">All</a></li>
+                                <li><a href="#" onclick="two()">Flex-box</a></li>
+                                <li><a href="#" class="act" onclick="three()">bootstrap</a></li>
+                            </ul>
+
+                            <div class="work">
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/education.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/edu-meeting/" target="_blank">Edu
+                                            Meeting</a></h6>
+                                    <p>&#128073; Using Bootstrap Grid.</p>
+                                    <p>&#128073; Using Counter up.</p>
+                                    <p>&#128073; Custamized Owl Carousel.</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/digital.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/DGital/" target="_blank">DGital</a></h6>
+                                    <p>&#128073; Using Bootstrap Grid.</p>
+                                    <p>&#128073; Aos Animations Library.</p>
+                                    <p>&#128073; Using Counter up.</p>
+                                    <p>&#128073; Custamized Owl Carousel.</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/vertex.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/vertex_2124/" target="_blank">Vertex</a>
+                                    </h6>
+                                    <p>&#128073; using Bootstrap Grid.</p>
+                                    <p>&#128073; Using Hover Effect</p>
+                                    <p>&#128073; Using Gallary Library</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/klinik.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/Klinic/" target="_blank">Klinik</a></h6>
+                                    <p>&#128073; using Bootstrap Grid.</p>
+                                    <p>&#128073; Using Counter</p>
+                                    <p>&#128073; Aos-animation Library</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/zon-zon.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/zon/" target="_blank">Zon-Zon</a></h6>
+                                    <p>&#128073; Using Bootstrap Grid.</p>
+                                    <p>&#128073; Using navbar or carousel </p>
+                                    <p>&#128073; Custamized Owl Carousel.</p>
+                                </div>
+
+                                <div class="proj">
+                                    <div class="project-1">
+                                        <img src="img/restrorant.png" alt="">
+                                    </div>
+                                    <h6><a href="https://shobha911.github.io/new-restrorant/"
+                                            target="_blank">Restoran</a></h6>
+                                    <p>&#128073; Using Bootstrap Grid.</p>
+                                    <p>&#128073; Using java screipt</p>
+                                    <p>&#128073; Using Counter</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- project ends-->
+                    <!-- contect strat -->
+
+                    <section class="cont dis-none" id="contact-div">
+                        <h1>Contect</h1>
+
+                        <div class="contect">
+                            <p>I am always here to create a website<br> and makeit work.</p>
+
+                            <form onsubmit="return data()" action="https://formspree.io/f/xkndvgdo" method="post">
+                                <input type="text" class="int" id="n1" name="name" placeholder="Name*"> <br>
+                                <input type="text" class="int" id="n2" name="contect" placeholder="Contact*"> <br>
+                                <input type="text" class="int" id="n3" name="email" placeholder="Email*"> <br>
+                                <input type="text" class="int" id="n4" name="msg" placeholder="message*"> <br>
+                                <button class="submit">Submit</button>
+                            </form>
+
+                        </div>
+
+                    </section>
+                    <!-- contect end -->
+                    <!-- download starts -->
+
+                    <section class="down dis-none" id="download-div">
+                        <div class="contect">
+                            <h1>Resume</h1>
+
+                            <p>Click here to download the resume. </p>
+
+                            <a href="./shobha resume.pdf" download="">Download Resume</a>
+                            
+                        </div>
+
+                    </section>
+                    <!-- download end -->
+
+                </div>
+                <!-- Right-area end-->
+
+            </div>
+        </div>
+    </div>
+    <!-- main-div and -->
+
+    <script>
+        function data() {
+            var a = document.getElementById("n1").value;
+            var b = document.getElementById("n2").value;
+            var c = document.getElementById("n3").value;
+            var d = document.getElementById("n4").value;
+
+            if (a == "" || b == "" || c == "" || d == "") {
+                alert("All Fields are mendatory");
+                return false;
+            }
+            else if (b.length < 10 || b.length > 10) {
+                alert("Number should be of 10 Digits ! please enter valid Number");
+                return false;
+            }
+
+            else if (isNaN(b)) {
+                alert("Only Numver are allowed ! please enter valid Number");
+                return true;
+            }
+            else {
+                true;
+            }
+        }
+
+        function one() {
+            document.getElementById("div1").classList.remove("dis-none");
+            document.getElementById("div2").classList.add("dis-none");
+            document.getElementById("div3").classList.add("dis-none");
+        }
+
+        function two() {
+            document.getElementById("div1").classList.add("dis-none");
+            document.getElementById("div2").classList.remove("dis-none");
+            document.getElementById("div3").classList.add("dis-none");
+        }
+
+        function three() {
+            document.getElementById("div1").classList.add("dis-none");
+            document.getElementById("div2").classList.add("dis-none");
+            document.getElementById("div3").classList.remove("dis-none");
+        }
+
+        function about() {
+            document.getElementById("about-div").classList.remove("dis-none");
+            document.getElementById("service-div").classList.add("dis-none");
+            document.getElementById("project-div").classList.add("dis-none");
+            document.getElementById("contact-div").classList.add("dis-none");
+            document.getElementById("download-div").classList.add("dis-none");
+        }
+
+        function service() {
+            document.getElementById("about-div").classList.add("dis-none");
+            document.getElementById("service-div").classList.remove("dis-none");
+            document.getElementById("project-div").classList.add("dis-none");
+            document.getElementById("contact-div").classList.add("dis-none");
+            document.getElementById("download-div").classList.add("dis-none");
+        }
+
+        function project() {
+            document.getElementById("about-div").classList.add("dis-none");
+            document.getElementById("service-div").classList.add("dis-none");
+            document.getElementById("project-div").classList.remove("dis-none");
+            document.getElementById("contact-div").classList.add("dis-none");
+            document.getElementById("download-div").classList.add("dis-none");
+        }
+
+        function contact() {
+            document.getElementById("about-div").classList.add("dis-none");
+            document.getElementById("service-div").classList.add("dis-none");
+            document.getElementById("project-div").classList.add("dis-none");
+            document.getElementById("contact-div").classList.remove("dis-none");
+            document.getElementById("download-div").classList.add("dis-none");
+        }
+
+        function download() {
+            document.getElementById("about-div").classList.add("dis-none");
+            document.getElementById("service-div").classList.add("dis-none");
+            document.getElementById("project-div").classList.add("dis-none");
+            document.getElementById("contact-div").classList.add("dis-none");
+            document.getElementById("download-div").classList.remove("dis-none");
+        }
+
+        function aboutpage() {
+            document.getElementById("list-itme").classList.add("active");
+            document.getElementById("list-itme-one").classList.remove("active");
+            document.getElementById("list-itme-two").classList.remove("active");
+            document.getElementById("list-itme-three").classList.remove("active");
+            document.getElementById("list-itme-four").classList.remove("active");
+        }
+
+        function servicepage() {
+            document.getElementById("list-itme").classList.remove("active");
+            document.getElementById("list-itme-one").classList.add("active");
+            document.getElementById("list-itme-two").classList.remove("active");
+            document.getElementById("list-itme-three").classList.remove("active");
+            document.getElementById("list-itme-four").classList.remove("active");
+        }
+
+        function projectpage() {
+            document.getElementById("list-itme").classList.remove("active");
+            document.getElementById("list-itme-one").classList.remove("active");
+            document.getElementById("list-itme-two").classList.add("active");
+            document.getElementById("list-itme-three").classList.remove("active");
+            document.getElementById("list-itme-four").classList.remove("active");
+        }
+
+        function contactpage() {
+            document.getElementById("list-itme").classList.remove("active");
+            document.getElementById("list-itme-one").classList.remove("active");
+            document.getElementById("list-itme-two").classList.remove("active");
+            document.getElementById("list-itme-three").classList.add("active");
+            document.getElementById("list-itme-four").classList.remove("active");
+        }
+
+        function downloadpage() {
+            document.getElementById("list-itme").classList.remove("active");
+            document.getElementById("list-itme-one").classList.remove("active");
+            document.getElementById("list-itme-two").classList.remove("active");
+            document.getElementById("list-itme-three").classList.remove("active");
+            document.getElementById("list-itme-four").classList.add("active");
+        }
+    </script>
+
+</body>
+
+</html>

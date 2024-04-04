@@ -1,0 +1,820 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap");
+
+:root {
+  --primary: #fff;
+  --secontry: #000;
+  --bg-small: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease;
+}
+
+/* utility class */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* utility class */
+
+.main-div {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url("../img/bg.jpg");
+}
+
+.inner {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-block: 30px;
+  position: relative;
+}
+
+/* introdection strats */
+
+.left-area {
+  width: 35%;
+  padding-inline: 30px;
+  background: fixed;
+  text-align: center;
+  background: fixed;
+  max-width: 450px;
+  position: fixed;
+  height: 100vh;
+  overflow: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.right-area {
+  width: 64%;
+  position: relative;
+  margin-left: auto;
+}
+
+.fix {
+  border-radius: 30px;
+  background-color: var(--primary);
+  padding-bottom: 10px;
+}
+
+.left-area .main-img {
+  width: 60%;
+  background-color: var(--bg-small);
+  margin: 0 auto;
+  position: relative;
+  top: -70px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 7px rgb(99, 99, 99);
+}
+
+.left-area .main-img img {
+  height: 250px;
+}
+
+.left-area h3 {
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  margin-top: -50px;
+  margin-bottom: 15px;
+}
+
+.left-area h5 {
+  font-size: 17px;
+  padding: 2px 10px;
+  display: inline;
+  background-color: var(--bg-small);
+  border-radius: 10px;
+}
+
+.list-itme img {
+  width: 40px;
+  display: inline-block;
+  margin-top: -18px;
+  font-weight: 900;
+  -webkit-filter: invert(0);
+}
+
+.list-itme:hover img {
+  -webkit-filter: invert(100%);
+}
+
+.list-itme .serimg {
+  position: relative;
+  top: -10px;
+}
+
+.social i {
+  font-size: 25px;
+  padding: 10px;
+  background-color: var(--bg-small);
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.social i:hover {
+  transform: rotate(360deg);
+  transition: all 0.9s;
+}
+
+.social .face {
+  color: rgb(0, 149, 255);
+}
+
+.social .face:hover {
+  background-color: rgb(0, 149, 255);
+  color: var(--bg-small);
+}
+
+.social .insta {
+  color: rgb(221, 0, 255);
+}
+
+.social .insta:hover {
+  color: var(--bg-small);
+  background: linear-gradient(rgb(115, 0, 255), rgb(247, 10, 180), yellow);
+}
+
+.social .linkin {
+  color: blue;
+}
+
+.social .linkin:hover {
+  background-color: blue;
+  color: var(--primary);
+}
+
+.social .git:hover {
+  color: var(--primary);
+  background-color: var(--secontry);
+}
+
+.intro {
+  width: 85%;
+  background-color: var(--bg-small);
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 20px 20px;
+}
+
+.intro .icon {
+  width: 20%;
+}
+
+.intro .icon i {
+  color: rgb(249, 61, 61);
+  background-color: var(--primary);
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+.intro .icon-text {
+  width: 78%;
+  text-align: left;
+}
+
+.intro .icon-text p {
+  font-size: 13px;
+}
+
+.intro .icon-text a {
+  color: var(--secontry);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.intro .icon-text h6 {
+  font-size: 15.5px;
+  line-height: 0px;
+}
+
+.intro .icon-text h6:hover {
+  text-decoration: underline;
+  color: rgb(80, 80, 251);
+}
+
+.intro .last-text h5:hover {
+  color: var(--secontry);
+  text-decoration: none;
+}
+
+/* introdection end */
+/* header strats*/
+
+header {
+  width: 55%;
+  background-color: var(--primary);
+  border-radius: 20px;
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+}
+
+header .list-itme {
+  background-color: var(--bg-small);
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 9px;
+}
+
+header .service-top {
+  padding: 10px 30px;
+}
+
+header .download-top {
+  padding: 15px 22px;
+}
+
+header .active,
+header .list-itme:hover {
+  background: linear-gradient(rgb(255, 32, 32), rgb(255, 48, 182));
+  color: var(--primary);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+header .active a,
+header .list-itme:hover a {
+  color: var(--primary);
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 0;
+  padding: 20px 10px;
+  margin-bottom: 0;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: var(--secontry);
+}
+
+header ul i {
+  font-size: 35px;
+}
+
+/* header end*/
+/* about strats*/
+
+section {
+  width: 100%;
+  background-color: var(--primary);
+  border-radius: 20px;
+  margin-top: 200px;
+}
+
+.banner {
+  margin-top: 170px;
+  padding: 40px 70px;
+}
+
+h1,
+.banner h2 {
+  font-family: "Roboto Slab", serif;
+  position: relative;
+  font-size: 35px;
+}
+
+.banner p {
+  margin-bottom: 0rem;
+  margin-top: 18px;
+}
+
+h1::before,
+.banner h2::before {
+  content: " ";
+  position: absolute;
+  top: 22px;
+  left: 200px;
+  width: 20%;
+  height: 5px;
+  border-radius: 5px;
+  background: linear-gradient(rgb(255, 32, 32), rgb(255, 48, 182));
+}
+
+.banner h2 {
+  margin-top: 30px;
+}
+
+.banner h2::before {
+  left: 160px;
+}
+
+.banner .skill {
+  width: 65%;
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.banner .skill .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.banner .skill .box-1 {
+  width: 22%;
+  background-color: var(--bg-small);
+  padding: 15px 0;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.banner .skill .box-2 {
+  padding: 15px 15px;
+}
+
+.banner .skill .box-1 a {
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--secontry);
+  margin-top: 5px;
+}
+
+.box-1 img {
+  width: 30px;
+  display: inline;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* about end*/
+/* service strats*/
+
+.service-all {
+  margin-top: 40px;
+}
+
+.service h1::before {
+  left: 180px;
+  top: 25px;
+}
+
+.service-box {
+  width: 90%;
+  text-align: center;
+  background-color: #eaf0fafc;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.service-box img {
+  width: 80px;
+  background-color: var(--primary);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.service-box i {
+  font-size: 50px;
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.service-box h3 {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.service-box p {
+  text-align: left;
+}
+
+/* service end*/
+/* project strats*/
+
+.dis-none {
+  display: none;
+}
+
+.work-point li a {
+  background-color: var(--bg-small);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.work-point li a:hover,
+.work-point li .act {
+  background: linear-gradient(rgb(255, 32, 32), rgb(255, 48, 182));
+}
+
+.project,
+.cont,
+.service,
+.down {
+  padding: 40px 50px;
+  margin-top: 170px;
+}
+
+.project h1::before {
+  left: 220px;
+}
+
+.work-point {
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+  list-style: none;
+}
+
+.work-point li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--secontry);
+}
+
+.work {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.proj {
+  width: 47%;
+  background-color: #eaf0fafc;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 20px 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative;
+  text-align: left;
+
+}
+
+.proj img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.proj h6 {
+  margin-top: 13px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.proj p {
+  line-height: 10px;
+}
+
+.cont h1::before {
+  left: 170px;
+}
+
+.contect {
+  background-color: #eaf0fafc;
+  padding: 60px 50px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.contect p {
+  font-size: 23px;
+}
+
+.contect .int {
+  width: 100%;
+  border: none;
+  margin-top: 30px;
+  background: none;
+  border-bottom: 1px solid black;
+  padding-block: 20px;
+  outline: none;
+}
+
+.contect .submit {
+  background: none;
+  margin-top: 40px;
+  border: 1px solid gray;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+/* contect end */
+/* download strats */
+
+.down {
+  height: 500px;
+  padding-block: 60px;
+}
+
+.down h1::before {
+  left: 170px;
+}
+
+.down p {
+  font-size: 19px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.down a {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(rgb(255, 32, 32), rgb(255, 48, 182));
+  color: var(--primary);
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* download end */
+/* media query strats */
+
+@media (max-width: 1215px) {
+  header {
+    width: 60%;
+  }
+
+  .banner .skill {
+    width: 80%;
+  }
+
+  .work-point {
+    flex-direction: column;
+  }
+
+  .work-point li {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1050px) {
+  header {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0 !important;
+  }
+
+
+  .left-area {
+    width: 90%;
+    margin: 150px auto 0 auto;
+    position: relative;
+    max-width: 850px;
+    height: 750px;
+  }
+
+  .project,
+  .cont,
+  .service,
+  .down {
+    margin-top: 30px;
+  }
+
+
+  .left-area .main-img {
+    width: 300px;
+  }
+
+  .intro {
+    width: 500px;
+  }
+
+  .right-area {
+    width: 100%;
+  }
+
+  header {
+    top: 10px;
+    right: 0;
+  }
+
+  section {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .banner {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 835px) {
+
+  .service-box,
+  .proj {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .banner .skill {
+    width: 90%;
+  }
+
+  h1,
+  .banner h2 {
+    font-size: 30px;
+  }
+
+  h1::before {
+    left: 165px;
+    top: 15px;
+
+  }
+
+  .banner h2::before {
+    left: 125px;
+    top: 17px;
+  }
+
+  .service h1::before {
+    left: 160px;
+  }
+
+  .project h1::before {
+    left: 190px;
+  }
+
+  .cont h1::before {
+    left: 150px;
+  }
+
+  .down h1::before {
+    left: 140px;
+    top: 20px;
+  }
+
+}
+
+@media (max-width: 675px) {
+  header .list-itme {
+    padding: 10px 10px;
+  }
+
+  header .service-top {
+    padding: 5px 10px;
+  }
+
+  .banner .skill .box-1 {
+    width: 46%;
+    margin-bottom: 20px;
+    padding: 30px 0;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  section {
+    width: 95%;
+  }
+
+  .banner {
+    padding: 40px 30px;
+  }
+
+  .banner .skill .box {
+    padding: 0px 50px;
+    margin-top: 0px;
+  }
+
+  .down h1::before {
+    left: 120px;
+    top: 15px;
+  }
+}
+
+@media (max-width: 456px) {
+  .left-area {
+    width: 100%;
+  }
+
+  .project,
+  .cont,
+  .service,
+  .down {
+    padding: 40px 10px;
+  }
+
+  header .list-itme i {
+    font-size: 20px;
+  }
+
+  header .list-itme li a {
+    font-size: 12px;
+  }
+
+  .list-itme img {
+    width: 22px;
+    margin-top: -10px;
+  }
+
+  .list-itme .serimg {
+    top: -4px;
+  }
+
+  .intro .icon-text h6 {
+    font-size: 14px;
+  }
+
+  .social i {
+    padding: 5px;
+  }
+
+  h1::before {
+    left: 150px;
+  }
+
+  .left-area .main-img {
+    width: 240px;
+  }
+
+  h1,
+  .banner h2 {
+    font-size: 27px;
+  }
+
+  .banner h2::before {
+    left: 120px;
+    top: 13px;
+  }
+
+  .cont h1::before {
+    left: 115px;
+  }
+
+  .contect {
+    padding: 60px 20px;
+  }
+
+}
+
+@media (max-width: 395px) {
+  .banner .skill .box {
+    padding: 0px 0px;
+  }
+
+  .intro .icon-text h6 {
+    font-size: 13px;
+  }
+
+  .service h1::before {
+    left: 130px;
+    top: 15px;
+
+  }
+
+  .project h1::before {
+    left: 150px;
+  }
+
+  .proj p {
+    font-size: 14px;
+}
+
+}
+
+@media (max-width: 360px) {
+
+  .intro .icon-text h6 {
+    font-size: 12px;
+  }
+
+  header .list-itme {
+    padding: 5px 5px;
+  }
+
+  .proj p {
+    font-size: 12px;
+}
+
+}
+
+
+@media (max-width: 330px) {
+
+  .work-point .bottom{
+  margin-bottom: 0px;
+}
+
+}
